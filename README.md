@@ -95,10 +95,6 @@ would also want to know any other information about how you did the data collect
 are these the first 20 patients that walked into the clinic? Are they 20 highly selected patients by some characteristic
 like age? Are they randomized to treatments? 
 
-A common format for this document is a Word file. There should be a section called "Study design" that has a thorough
-description of how you collected the data. There is a section called "Code book" that describes each variable and its
-units. 
-
 ### How to code variables
 
 When you put variables into a spreadsheet there are several main categories you will run into depending on their [data type](http://en.wikipedia.org/wiki/Statistical_data_type):
@@ -149,36 +145,3 @@ is something called [pseudocode](http://en.wikipedia.org/wiki/Pseudocode). It sh
 You should also include information about which system (Mac/Windows/Linux) you used the software on and whether you 
 tried it more than once to confirm it gave the same results. Ideally, you will run this by a fellow student/labmate
 to confirm that they can obtain the same output file you did. 
-
-
-
-
-What you should expect from the analyst
-====================
-
-When you turn over a properly tidied data set it dramatically decreases the workload on the statistician. So hopefully
-they will get back to you much sooner. But most careful statisticians will check your recipe, ask questions about
-steps you performed, and try to confirm that they can obtain the same tidy data that you did with, at minimum, spot
-checks.
-
-You should then expect from the statistician:
-
-1. An analysis script that performs each of the analyses (not just instructions)
-1. The exact computer code they used to run the analysis
-1. All output files/figures they generated. 
-
-This is the information you will use in the supplement to establish reproducibility and precision of your results. Each
-of the steps in the analysis should be clearly explained and you should ask questions when you don't understand
-what the analyst did. It is the responsibility of both the statistician and the scientist to understand the statistical
-analysis. You may not be able to perform the exact analyses without the statistician's code, but you should be able
-to explain why the statistician performed each step to a labmate/your principal investigator. 
-
-
-Contributors
-====================
-
-* [Jeff Leek](http://biostat.jhsph.edu/~jleek/) - Wrote the initial version.
-* [L. Collado-Torres](http://bit.ly/LColladoTorres) - Fixed typos, added links.
-* [Nick Reich](http://people.umass.edu/nick/) - Added tips on storing data as text.
-
-
